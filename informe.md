@@ -65,3 +65,24 @@ Se identifican por la adición de una condición extra y el signo de dos puntos 
 1
 a:hover { text-decoration: none; }
 Este regla de estilo quitará la línea que aparece debajo de los enlaces de una página, cada vez que coloquemos el cursor sobre alguno de ellos.
+
+Agrupación de selectores CSS
+Existirán ocasiones en las que queramos aplicar un mismo estilo a diferentes elementos pertenecientes ya sea a diferentes grupos o clases, para estás situaciones podemos usar reglas que agrupen selectores en una sola sentencia. Es decir, en lugar de hacer algo como esto:
+
+?
+1
+2
+p { color: blue; }
+#cabecera_azul { color: blue; }
+Simplemente aplicamos todo en una sola línea de la siguiente manera:
+
+?
+1
+p, #cabecera_azul { color: blue; }
+Por otro lado si lo que queremos es envolver elementos anidados para aplicarles algún estilo, basta con añadir un espacio entre los selectores. Por ejemplo si queremos aplicar la letra de color azul únicamente a los párrafos que están dentro del “div” principal de la página, basta con declarar la regla de la siguiente manera:
+
+?
+1
+#principal p { color:blue; }
+Otros selectores
+Como ya dijimos existen otra clase de selectores que pueden llegar a ser muy específicos y nos permitirán delimitar a gran escala, pero para lograr utilizarlos debemos conocer el funcionamiento de las expresiones regulares, por lo que su uso no es tan común. Si quieres conocer a fondo como funcionan dichos selectores le puedes echar un vistazo a este artículo, que si bien habla de jQuery, aplica de la misma manera para los selectores CSS.
