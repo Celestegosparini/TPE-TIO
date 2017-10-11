@@ -54,3 +54,14 @@ También se puede ser más específico estableciendo qué elementos de una clase
 ?
 1
 h2.azul { color: blue; }
+
+Pseudo clases y pseudo elementos
+
+El uso de pseudo clases y pseudo elementos puede resultar ser un poco más difícil de comprender por lo que lo veremos más a detalle ya que estemos más adentrados en el manual, por ahora únicamente vamos a definir que son utilizados para dar una mayor especificidad y generalmente sirven para indicar posición o algún movimiento.
+
+Se identifican por la adición de una condición extra y el signo de dos puntos que se encuentra entre el elemento y la acción. Por ejemplo, si quisiéramos obtener la primera letra de algún elemento utilizamos una sentencia como “elemento:first-letter”, o si queremos aplicar un estilo cada vez que se coloque el ratón sobre un elemento haremos algo como esto:
+
+?
+1
+a:hover { text-decoration: none; }
+Este regla de estilo quitará la línea que aparece debajo de los enlaces de una página, cada vez que coloquemos el cursor sobre alguno de ellos.
