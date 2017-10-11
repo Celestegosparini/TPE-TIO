@@ -24,14 +24,14 @@ Aplicará un estilo a todos los elementos que estén compuestos por la etiqueta 
 
 Por su parte, los selectores por ID adjuntan los estilos definidos únicamente al elemento HTML con el ID correspondiente. Así que, si en nuestro código HTML tenemos algo como esto:
 
-~~~
+
 #### ¡Azul!
-~~~
+
 
 Y sólo queremos aplicar el estilo del color azul a este elemento, entonces podemos hacer algo así:
 
 ~~~
-#parr_azul { color: blue; }
+parr_azul { color: blue; }
 ~~~
 De esta manera únicamente ese párrafo se verá estilizado y todos los demás permanecerán igual. Como se puede apreciar puse una almohadilla “#” antes del nombre del ID, este signo es utilizado reconocer a los identificadores, mientras que para las clases antepondremos al nombre un punto “.”, lo que nos dará una regla como esta:
 
