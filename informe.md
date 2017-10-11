@@ -68,8 +68,7 @@ a:hover { text-decoration: none; }
 
 Este regla de estilo quitará la línea que aparece debajo de los enlaces de una página, cada vez que coloquemos el cursor sobre alguno de ellos.
 
-## Agrupación de selectores CSS
-
+Agrupación de selectores CSS
 Existirán ocasiones en las que queramos aplicar un mismo estilo a diferentes elementos pertenecientes ya sea a diferentes grupos o clases, para estás situaciones podemos usar reglas que agrupen selectores en una sola sentencia. Es decir, en lugar de hacer algo como esto:
 ~~~
 p { color: blue; }
