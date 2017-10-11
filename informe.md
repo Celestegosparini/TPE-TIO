@@ -83,11 +83,12 @@ Por otro lado si lo que queremos es envolver elementos anidados para aplicarles 
 ~~~
 #principal p { color:blue; }
 ~~~
-Otros selectores
+
+## Otros selectores
 
 Como ya dijimos existen otra clase de selectores que pueden llegar a ser muy específicos y nos permitirán delimitar a gran escala, pero para lograr utilizarlos debemos conocer el funcionamiento de las expresiones regulares, por lo que su uso no es tan común. Si quieres conocer a fondo como funcionan dichos selectores le puedes echar un vistazo a este artículo, que si bien habla de jQuery, aplica de la misma manera para los selectores CSS.
 
-Propiedades y valores
+## Propiedades y valores
 Si bien los selectores nos permiten delimitar el grupo de elementos que vamos a modificar, el estilo en sí es aplicado por las propiedades y los valores.
 
 Las propiedades representan las partes de un elemento que vamos a alterar, estas van desde colores, tamaños de fuente, hasta bordes y decoraciones. Por su parte los valores variarán según la propiedad elegida, pero en general existen dos tipos de unidad que pueden ser utilizados por casi todas las propiedades, nos referimos a los números y porcentajes.
