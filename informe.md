@@ -84,5 +84,10 @@ Por otro lado si lo que queremos es envolver elementos anidados para aplicarles 
 ?
 1
 #principal p { color:blue; }
+
+Otros selectores
+
+Como ya dijimos existen otra clase de selectores que pueden llegar a ser muy específicos y nos permitirán delimitar a gran escala, pero para lograr utilizarlos debemos conocer el funcionamiento de las expresiones regulares, por lo que su uso no es tan común. Si quieres conocer a fondo como funcionan dichos selectores le puedes echar un vistazo a este artículo, que si bien habla de jQuery, aplica de la misma manera para los selectores CSS.
+
 Otros selectores
 Como ya dijimos existen otra clase de selectores que pueden llegar a ser muy específicos y nos permitirán delimitar a gran escala, pero para lograr utilizarlos debemos conocer el funcionamiento de las expresiones regulares, por lo que su uso no es tan común. Si quieres conocer a fondo como funcionan dichos selectores le puedes echar un vistazo a este artículo, que si bien habla de jQuery, aplica de la misma manera para los selectores CSS.
